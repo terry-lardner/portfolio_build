@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Portfolio</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	<!-- Social icons: https://www.iconfinder.com/iconsets/miu-square-gloss-social -->
+
+	<link rel="stylesheet" href="css/vendor/normalize.css">
+	<link rel="stylesheet" href="css/vendor/foundation.min.css">
+    <link rel="stylesheet" href="css/vendor/font-awesome.min.css">     
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
+</head>
+<body data-whatinput-formtyping>	
+	<!--[if lt IE 8]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<nav id="headerContainer" class="container-header">
+		<a id="btnLogo" class="btn-logo-v2 logo-pos">tl</a>
+		<div class="header-links">
+			<a id="btnAbout">Home</a><!--
+			--><a id="btnSkills">Core Skills</a><!--
+			--><a id="btnProjects">Projects</a><!--
+			--><a id="btnCV">CV</a><!--
+			--><a id="btnContact">Contact</a>
+		</div>
+		<div id="headerMenu" class="hide header-links-menu header-links-menu-pos">
+			<ul class="vertical menu" data-accordion-menu>
+				<li>
+					<a class="menu-bars"><i class="fa fa-bars"></i></a>
+					<ul class="menu vertical nested">
+						<li><a class="menu-item" id="btnMenuAbout">Home</a></li>
+						<li><a class="menu-item" id="btnMenuSkills">Core Skills</a></li>
+						<li><a class="menu-item" id="btnMenuProjects">Projects</a></li>
+						<li><a class="menu-item" id="btnMenuCV">CV</a></li>
+						<li><a class="menu-item" id="btnMenuContact">Contact</a></li>
+					</ul>	
+				</li>			
+			</ul>				
+		</div>					
+	</nav>
+	<section id="aboutViewport" class="section-main section-about">
+		<div class="lead">A small <span class="lead-alt-text">piece</span> of TRUTH.</div>
+			<i class="fa fa-user fa-3x"></i>				
+			<p class="abIntro">
+				"I do not carry a sickle or scythe.<br>
+				I only wear a hooded black robe when it's cold.<br>
+				And I don't have those skull-like facial features you seem to enjoy pinning on me from a distance.<br> 
+				You want to know what I truly look like? I'll help you out.<br>
+				Find yourself a mirror, while I continue."<br>
+			</p>
+			<p class="abSummary">
+				HI. My name is Terry Lardner. I'm a self-taught Front-End Web Developer currently living in London, England. I enjoy building responsive websites and have taken a pro-active role in expanding my skillset further into single page applications (SPAs).
+				<br><i class="fa fa-circle"></i><br>
+				Want to get in touch? <a id="btnAboutLinkToContact" class="btnCVLinkToSkills">No problem</a>.
+				<br><i class="fa fa-circle"></i><br>
+				Below, you may also check out more on my current skill set, work experience, code snippets and personal / professional projects at various levels of completion.
+				<br><i class="fa fa-circle"></i><br>
+				Enjoy.
+			</p>					
+	</section>
+	<section id="skillsViewport" class="section-main section-skills">
+		<h1 class="section-title">
+			Core Skills
+		</h1>
+		<i class="fa fa-cubes fa-3x"></i>
+		<ul class="section-list skills">
+			<li class="title">Client-side</li>
+			<li>HTML5<i class="fa fa-circle"></i>CSS3<i class="fa fa-circle"></i>Javascript/ES6<i class="fa fa-circle"></i>jQuery/AJAX</li>
+			<li class="title">Server-side</li>
+			<li>MongoDB<i class="fa fa-circle"></i>Expressjs/MongooseORM<i class="fa fa-circle"></i>Nodejs</li>
+			<li class="title">Other</li>
+			<li>Github<i class="fa fa-circle"></i>Redmine<i class="fa fa-circle"></i>npm/Bower<i class="fa fa-circle"></i>Gulp<i class="fa fa-circle"></i>Yeoman</li>
+		</ul>
+		<article>
+			<p class="skills-info">
+			Working knowledge of <span class="highlight">HTML5</span> / <span class="highlight">CSS3</span> / client-side <span class="highlight">Javascript</span> (<span class="highlight">jQuery</span>).<br>
+			Working knowledge of package management tools (<span class="highlight">npm</span> / <span class="highlight">bower</span>) and build systems (<span class="highlight">gulp</span>).<br>
+			Working knowledge of <span class="highlight">Responsive Design</span>, <span class="highlight">Cross-Browser Compatibility</span> and popular CSS frameworks (<span class="highlight">Foundation</span>, <span class="highlight">Bootstrap</span>).<br>
+			Experience with and basic knowledge of AJAX and server-side Javascript (<span class="highlight">Expressjs</span>, <span class="highlight">Nodejs</span>).<br>
+			Working knowledge of version control and issue tracking tools (<span class="highlight">Github</span> / <span class="highlight">TortoiseCVS</span> / <span class="highlight">Redmine</span>).
+			</p>
+		</article>		
+	</section>
+	<section id="projectsViewport" class="section-main section-projects">
+		<h1 class="section-title">
+			Projects / Demos
+		</h1>
+		<i class="fa fa-suitcase fa-3x"></i>
+		<ul class="section-list projects">
+			<li id="proj-codepen" class="project">
+				<div class="project-title">
+					#CodePens
+				</div>
+				<a href="http://codepen.io/terry-lardner/pens/public/" target ="_blank"><img src="img/codepen_500_300.jpg"></a>
+			</li><!--
+			--><li id="proj-portfolioV1" class="project">
+				<div class="project-title">
+					Portfolio v1.0
+				</div>
+				<a data-open="modal-projectPortfolio"><img src="img/project_portfolio.jpg"></a>
+			</li><!--
+			--><li id="proj-wiki" class="project">
+				<div class="project-title">
+					#Wikipedia
+				</div>
+				<a data-open="modal-projectWiki"><img src="img/project_wiki.jpg"></a>
+			</li><!--				
+			--><li id="proj-ic" class="project">
+				<div class="project-title">
+					#Ice Cream
+				</div>
+				<a data-open="modal-projectIC"><img src="img/project_ic.jpg"></a>				
+			</li><!--
+			--><li id="proj-directory" class="project">
+				<div class="project-title">
+					#Directory
+				</div>
+				<a data-open="modal-projectDirectory"><img src="img/project_directory.jpg"></a>
+			</li>							
+		</ul>
+		<div class="github-logo">
+			<a href="https://github.com/terry-lardner/" target="_blank"><img src="img/1454565810_github-square-gloss-social-media.svg" alt="github"></a>
+		</div>
+		<div class="github-display">
+			https://github.com/terry-lardner/	
+		</div>	
+	</section>
+	<section id="cvViewport" class="section-main section-cv">
+		<h1 class="section-title">
+			CV / Timeline
+		</h1>
+		<i class="fa fa-university fa-3x"></i>
+		<div>
+			<ul class="section-list">
+				<li class="title">Skills + Tools</li>
+			</ul>
+			<ul class="section-list cv-skills-l">
+				<li>Responsive Design</li>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>Javascript</li>
+				<li>jQuery / AJAX</li>
+				<li>Foundation</li>
+				<li>Bootstrap</li>
+				<li>GitHub</li>
+			</ul>
+			<ul class="section-list cv-skills-r">			
+				<li>Cross-browser comp.</li>
+				<li>Yeoman</li>
+				<li>MongoDB</li>
+				<li>Expressjs</li>
+				<li>MongooseORM</li>
+				<li>Nodejs</li>
+				<li>npm / bower</li>
+				<li>Gulp</li>
+				<li>Redmine</li>
+			</ul>
+			<ul class="section-list">
+				<li class="linkToCoreSkills">See description in <a id="btnCVLinkToSkills" class="btnCVLinkToSkills">Core Skills</a> for more detail.</li>
+			</ul>
+		</div>		
+		<ul class="section-list workexp">
+			<li class="title">Work Experience</li>
+			<li class="subtitle">2008 - 2015 Mcentricksd S.A. - QA Analyst / Product Developer</li>
+			<li class="first">Responsible for the design &amp; implementation of targeted, logic-driven, promotional Campaigns of varying complexity and target volume. Target volume ranged from a few hundred to a tens of millions of users, depending on the requirements of the campaign.</li>
+			<li>Requirements gathering.</li>
+			<li>Functional / Regression / Integration testing.</li>
+			<li>Scheduling, documentation and execution of User Acceptance Tests, conducted directly with clients.</li>
+			<li>Client training on Administrative tools for other products and services delivered by mCentric. Employee training in tools used to implement and validate promotional campaigns.</li>
+			<li>Authoring User Manuals, Training Guides, etc.</li>
+			<li>Worked in a very small team, using an agile-esque software development methodology.</li>		
+		</ul>		
+		<ul class="section-list edu">
+			<li class="title">Education &amp; Qualifications</li>
+			<li class="subtitle">2006 – 2007 University of Sussex</li>
+			<li>MSc. in Information Technology for E-Commerce.</li>
+			<li class="subtitle">2002 - 2006 University of Bradford</li>
+			<li>BSc. (Hons) Computing and Information Systems</li>
+			<!-- <li class="subtitle">2000 - 2002 Shaftsbury School, Dorset</li>
+			<li>A-Levels: Information and Communication Technology, Maths and Physics.</li> -->
+		</ul>
+	</section>
+	<section id="contactViewPort" class="section-main section-contact">
+		<h1 class="section-title">
+			Contact
+		</h1>
+		<i class="fa fa-users fa-3x"></i>
+		<div class="social">
+				<a class="social-logo" href="https://github.com/terry-lardner/" target="_blank"><img src="img/1454565810_github-square-gloss-social-media.svg" alt="github"></a>
+				<a class="social-logo" href="https://www.linkedin.com/in/terence-lardner-24264992" target="_blank"><img src="img/1454565742_linkedin-square-gloss-social-media.svg" alt="linkedin"></a>
+				<a class="social-logo" href="https://twitter.com/tlard88" target="_blank"><img src="img/1454565732_twitter-square-gloss-social-media.svg" alt="twitter"></a>
+				<a class="social-logo"><img src="img/1454565775_skype-square-gloss-social-media.svg" alt="skype"></a>
+				<a class="social-logo"><img src="img/1454565757_mail-square-gloss-social-media.svg" alt="gmail"></a>
+			<ul class="contactDetails">
+				<li>skype: terry_lardner</li>
+				<li>email: terry-lardner@gmail.com</li>
+				<li>tel: (+44)7938254685</li>
+			</ul>
+		</div>
+	</section>	
+	<footer class="hide container-footer">
+		<div class="hide social-menu-pos">
+			<div class="social-menu">
+				<ul class="vertical menu" data-accordion-menu>
+					<li>
+						<a href="#"><i class="fa fa-bars"></i></a>
+						<ul class="menu vertical nested">
+							<li><a href="https://github.com/terry-lardner/" target="_blank"><img src="img/1454565810_github-square-gloss-social-media.svg" alt="github"></a></li>
+							<li><a href="https://www.linkedin.com/in/terence-lardner-24264992" target="_blank"><img src="img/1454565742_linkedin-square-gloss-social-media.svg" alt="linkedin"></a></li>
+							<li><a href="https://twitter.com/tlard88" target="_blank"><img src="img/1454565732_twitter-square-gloss-social-media.svg" alt="twitter"></a></li>
+							<li><a><img src="img/1454565775_skype-square-gloss-social-media.svg" alt="skype"></a></li>
+							<li><a><img src="img/1454565757_mail-square-gloss-social-media.svg" alt="gmail"></a></li>
+						</ul>	
+					</li>			
+				</ul>				
+			</div>
+		</div>		
+	</footer>
+
+
+	<div class="reveal row" id="modal-projectWiki" data-reveal>
+		<div class="column medium-8 large-8">
+			<img src="img/project_wiki_full.png">
+		</div>
+		<div class="column medium-4 large-4">
+			<p class="modal-description">
+			A side project on a concept Wikipedia redesign. <br>
+			Built with : jQuery/AJAX, MongoDB, Expressjs RESTapi.
+			</p>
+			<a href="https://rawgit.com/terry-lardner/wikipedia-fe/master/index.html" target="_blank" class="button btn-open-proj">Open site</a>
+		</div>		
+		<button class="close-button" data-close aria-label="Close reveal" type="button">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+    </div>
+
+    <div class="reveal row" id="modal-projectPortfolio" data-reveal>
+		<div class="column medium-8 large-8">
+			<img src="img/project_portfolio_full.png">
+		</div>
+		<div class="column medium-4 large-4">
+			<p class="modal-description">
+			My second attempt at my site..
+			</p>
+			<a href="https://rawgit.com/terry-lardner/portfolio/1.0.0/index.html" target="_blank" class="button btn-open-proj">Open site</a>
+		</div>		
+		<button class="close-button" data-close aria-label="Close reveal" type="button">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+    </div>
+
+    <div class="reveal row" id="modal-projectIC" data-reveal>
+		<div class="column medium-8 large-8">
+			<img src="img/project_ic_full.jpg">
+		</div>
+		<div class="column medium-4 large-4">
+			<p class="modal-description">
+				A website for a start-up Environmental Consultant Agency.<br>
+				Freelance, work-in-progress. 
+			</p>
+			<a href="https://rawgit.com/terry-lardner/icecream-fe/master/index.html" target="_blank" class="button btn-open-proj">Open site</a>
+		</div>		
+		<button class="close-button" data-close aria-label="Close reveal" type="button">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+    </div>
+
+	<div class="reveal row" id="modal-projectDirectory" data-reveal>
+		<div class="column medium-8 large-8">
+			<img src="img/project_directory_full.png">
+		</div>
+		<div class="column medium-4 large-4">
+			<p class="modal-description">
+				A "simple" contacts directory app examining the basics of AJAX and RESTful APIs. <br>
+				Built with : jQuery/AJAX, MongoDB, Expressjs.
+			</p>
+		</div>		
+		<button class="close-button" data-close aria-label="Close reveal" type="button">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+    </div>
+
+	<script src="js/vendor/jquery.min.js" type="text/javascript"></script>
+	<script src="js/vendor/what-input.min.js" type="text/javascript"></script>
+	<script src="js/vendor/foundation.min.js" type="text/javascript"></script>
+	<script src="js/vendor/app.js" type="text/javascript"></script>
+
+	<script src="js/plugins.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/build.min.js" type="text/javascript"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    -->
+</body>
+</html>
